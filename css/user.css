@@ -134,3 +134,24 @@ body{
     background-color:#3c6eb4;
     color:white;
 }
+
+.n{
+    background-image:url("img/user/ic_person.png");
+}
+
+.c{
+    background-image:url("img/user/ic_call.png");
+}
+
+.e{
+    background-image:url("img/user/ic_e-mail.png");
+}
+
+.s{
+    background-image:url("img/user/ic_school.png");
+}
+
+.n, .c, .e, .s{
+    width:22px;
+    height:22px;
+}
