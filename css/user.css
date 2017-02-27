@@ -7,13 +7,13 @@
     -webkit-user-select: none;
     user-select: none;
 
-    overflow:hidden;
+    font-family: 'Nanum Barun Gothic', sans-serif;
 }
 
 body{
     width:100vw;
     height:100vh;
-
+    overflow:hidden;
     background-image:url('img/user/bg_picture.png');
     background-size:cover;
 }

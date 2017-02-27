@@ -1,0 +1,200 @@
+*{
+    margin:0;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.flex-end{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.flex-align-end{
+    display:flex;
+    align-items:flex-end;
+}
+
+.flex{
+    display:flex;
+}
+
+.flex-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.flex-between{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.flex-around{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.content-box{
+    width:70vw;
+    height:30vh;
+}
+
+/* 나눠 버리기~*/
+
+.header{
+    width:100vw;
+    height:40vh;
+    background-color:#455a65;
+}
+
+.header-logo{
+    width:100%;
+    height:15%;
+    padding:10px;
+}
+
+.logo{
+    background-image:url("img/ask/ic_edcan.png");
+    width:150px;
+    height:33px;
+}
+
+.name , .alert{
+    color:white;
+
+    width:25%;
+    height:100%;
+}
+
+.name-text{
+    font-weight:500;
+    font-size:35px;
+}
+
+.name-small-text{
+    font-weight:100;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.alert-text{
+    font-weight:100;
+    font-size:18px;
+    margin-bottom:4px;
+}
+
+.null{
+    width:50%;
+    height:100%;
+}
+
+/* 나눠버리기~ */
+
+
+.content{
+    width:100vw;
+    height:70vh;
+}
+
+.content-list{
+    width:100vw;
+}
+
+.content-big-box{
+    width:70vw;
+    height:40vh;
+    padding-top:10px;
+    margin-bottom:20px;
+}
+
+.content-big-file{
+    width:70vw;
+    height:20vh;
+    padding-top:10px;
+    margin-bottom:20px;
+}
+
+.content-text{
+    font-size:26px;
+    font-weight:600;
+
+    color:#455a65;
+}
+
+.content-small-text{
+    color:#455a65;
+
+    font-size:20px;
+    font-weight:200;
+
+    margin-top:15px;
+}
+
+.content-info{
+    margin-top:20px;
+    width:100%;
+    height:70%;
+}
+
+.content-info-textarea{
+    width:100%;
+    height:100%;
+
+    outline:none;
+}
+
+.content-file{
+    margin-top:20px;
+    width:100%;
+    height:100%;
+}
+
+.content-file-info{
+    outline:none;
+}
+
+.content-add{
+    width:70vw;
+    height:20vh;
+
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.add-text{
+    color:#455a65;
+    font-size:20px;
+    font-weight:400;
+
+    margin-right:5px;
+}
+
+.send-text{
+    color:black;
+    font-size:30px;
+    font-weight:200;
+}
+
+.preview , .send{
+    width:20%;
+    height:40%;
+
+    border:2px solid rgba(0,0,0,0.3);
+    margin-left:5px;
+    margin-right:5px;
+
+    cursor:pointer;
+}
