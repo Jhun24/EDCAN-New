@@ -51,20 +51,44 @@ body{
 
 .content-flex-center{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
     justify-content:center;
+    -ms-flex-pack:center;
 }
 
 .content-flex-around{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:space-around;
     justify-content:space-around;
+    -ms-flex-pack:justify;
 }
 
 .content-flex-between{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:space-between;
     justify-content:space-between;
+    -ms-flex-pack:justify;
 
     padding:0;
 }
@@ -95,8 +119,16 @@ body{
     width:48%;
 
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
     justify-content:center;
+    -ms-flex-pack:center;
 
     background-color:white;
 

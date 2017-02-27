@@ -13,6 +13,7 @@
 
 body{
     overflow-x:hidden;
+    background-color:#f9f9f9;
 }
 
 .fr{
@@ -21,35 +22,77 @@ body{
 
 .flex-end{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:flex-end;
     justify-content:flex-end;
+    -ms-flex-pack:end;
 }
 
 .flex-align-end{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:flex-end;
     align-items:flex-end;
+    -ms-flex-align:end;
+
 }
 
 .flex{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
 }
 
 .flex-center{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
     justify-content:center;
+    -ms-flex-pack:center;
 }
 
 .flex-between{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+
+    -webkit-justify-content:space-between;
     justify-content:space-between;
+    -ms-flex-pack:space-between;
 }
 
 .flex-around{
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+
+    -webkit-justify-content:space-around;
     justify-content:space-around;
+    -ms-flex-pack:justify;
 }
 
 .content-box{
@@ -69,6 +112,10 @@ body{
     width:100%;
     height:15%;
     padding:10px;
+}
+
+.header-content-box{
+    margin-top:20px;
 }
 
 .logo{
