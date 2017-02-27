@@ -6,6 +6,8 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+
+    overflow:hidden;
 }
 
 body{
@@ -54,7 +56,7 @@ body{
 
 .content{
     width:100%;
-    height:60%;
+    height:62%;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -78,3 +80,51 @@ h3{
     font-size:23px;
 }
 /* content finish */
+
+/* footer start */
+
+.footer{
+    width:100%;
+    height:23%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+.bgBlack{
+    background-color:rgba(0,0,0,0.7);
+}
+
+.flexbox{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:56%;
+}
+
+.footer-text{
+    color:white;
+}
+
+.logo{
+    background-image:url('img/main/ic_edcan.png');
+    width:133px;
+    height:111px;
+}
+
+h4{
+    font-family:"Geometos",sans-serif;
+    font-size:23px;
+}
+
+h5{
+    font-family:"Nanum Barun Gothic" ,sans-serif;
+}
+
+.r{
+    text-align:right;
+}
+
+
+/* footer finish */
