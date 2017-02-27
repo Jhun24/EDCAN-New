@@ -27,7 +27,7 @@ body{
 
 .title{
     width:100%;
-    height:20%;
+    height:15%;
 
     display:flex;
     align-items:center;
@@ -43,9 +43,38 @@ body{
 
 .circle-best-text{
     color:white;
-    font-size:20px;
+    font-size:19px;
 
     font-family: 'Nanum Barun Gothic', sans-serif;
 }
 
 /* title finish*/
+
+/* content start */
+
+.content{
+    width:100%;
+    height:60%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.content-textBox{
+    color:white;
+    font-family: "Geometos" , sans-serif;
+}
+
+
+h1,h3{
+    text-align:center;
+}
+
+h1{
+    font-size:60px;
+}
+
+h3{
+    font-size:23px;
+}
+/* content finish */
