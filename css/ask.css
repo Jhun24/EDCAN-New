@@ -77,7 +77,7 @@ body{
 
     -webkit-justify-content:space-between;
     justify-content:space-between;
-    -ms-flex-pack:space-between;
+    -ms-flex-pack:justify;
 }
 
 .flex-around{
@@ -89,10 +89,10 @@ body{
     align-items:center;
     -ms-flex-align:center;
 
-
+    -ms-flex-pack:justify;
     -webkit-justify-content:space-around;
     justify-content:space-around;
-    -ms-flex-pack:justify;
+
 }
 
 .content-box{

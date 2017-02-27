@@ -186,4 +186,13 @@ body{
 .n, .c, .e, .s{
     width:22px;
     height:22px;
+    background-size:cover;
+}
+
+.s,.c,.e{
+    width:23px;
+}
+
+.e,.s{
+    width:24px;
 }
