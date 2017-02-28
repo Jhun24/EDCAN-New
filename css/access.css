@@ -1,0 +1,130 @@
+*{
+    margin:0;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.error{
+    width:70vw;
+    height:40vh;
+}
+
+.error-header{
+    width:100%;
+    height:20%;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+    border-bottom:4px solid #455a65;
+}
+
+.logo{
+    width:174px;
+    height:39px;
+
+    background-image:url("img/access/ic_edcan.png");
+}
+
+.null{
+    width:40%;
+}
+
+.master{
+    color:#455a65;
+
+    font-size:20px;
+    font-weight:500;
+}
+
+.error-content{
+    width:100%;
+    height:80%;
+}
+
+.content-info{
+    width:74%;
+    height:50%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    margin:auto;
+
+}
+
+.error-logo{
+    background-image:url("img/access/ic_problem.png");
+    width:109px;
+    height:94px;
+}
+
+h6{
+    color:#455a65;
+    font-size:25px;
+    font-weight:500;
+}
+
+.top{
+    margin-bottom:20px;
+}
+
+.content-ask{
+    width:74%;
+
+    margin:auto;
+
+    color:#455a65;
+
+    font-size:20px;
+    font-weight:500;
+}
+
+.content-btn{
+    width:74%;
+
+    margin:auto;
+
+    display:flex;
+    align-items:center;
+
+    justify-content:space-around;
+
+    margin-top:40px;
+}
+
+.error-btn{
+    width:15vw;
+    height:5vh;
+
+    border:2px solid #455a65;
+    border-radius:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#455a65;
+
+    font-weight:500;
+
+    cursor:pointer;
+
+}
