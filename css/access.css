@@ -16,8 +16,16 @@ body{
     height:100vh;
 
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
     justify-content:center;
+    -ms-flex-pack:center;
 }
 
 .error{
@@ -30,8 +38,16 @@ body{
     height:20%;
 
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:space-around;
     justify-content:space-around;
+    -ms-flex-pack:justify;
 
     border-bottom:4px solid #455a65;
 }
@@ -63,8 +79,16 @@ body{
     width:74%;
     height:50%;
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:space-between;
     justify-content:space-between;
+    -ms-flex-pack:justify;
 
     margin:auto;
 
@@ -103,9 +127,17 @@ h6{
     margin:auto;
 
     display:flex;
-    align-items:center;
+    display:-webkit-flex;
+    display:-ms-flexbox;
 
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:space-around;
     justify-content:space-around;
+    -ms-flex-pack:justify;
+
 
     margin-top:40px;
 }
@@ -118,8 +150,16 @@ h6{
     border-radius:40px;
 
     display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
     align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
     justify-content:center;
+    -ms-flex-pack:center;
 
     color:#455a65;
 
