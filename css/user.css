@@ -30,8 +30,12 @@ body{
 }
 
 .content{
-    width:30vw;
+    width:70vw;
     height:80vh;
+
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 .content-box{
@@ -39,6 +43,10 @@ body{
     height:8%;
     padding:3px;
     margin-bottom:10px;
+
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 .white{
@@ -104,7 +112,7 @@ body{
     outline:none;
     border:none;
     padding-left:3px;
-    font-size:15px;
+    font-size:25px;
 }
 
 .logo{
@@ -132,6 +140,18 @@ body{
 
     background-color:white;
 
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+    font-size:30px;
+
+}
+
+input{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 .end-box{
@@ -142,6 +162,8 @@ body{
     background-color:#455a65;
 
     color:white;
+
+    font-size:30px;
 }
 
 
@@ -195,4 +217,18 @@ body{
 
 .e,.s{
     width:24px;
+}
+
+@media (min-width : 1000px){
+    .content{
+        width:30vw;
+    }
+
+    .in-text{
+        font-size:15px;
+    }
+
+    .end-box , .check-box{
+        font-size:15px;
+    }
 }

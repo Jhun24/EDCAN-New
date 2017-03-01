@@ -74,6 +74,8 @@ body{
     -webkit-justify-content:center;
     justify-content:center;
     -ms-flex-pack:center;
+
+
 }
 
 .content-textBox{
@@ -130,7 +132,7 @@ h3{
     -webkit-justify-content:space-between;
     justify-content:space-between;
     -ms-flex-pack:justify;
-    width:100%;
+    width:90%;
     height:100%;
 }
 
@@ -163,20 +165,23 @@ h5{
 /* footer finish */
 
 
-@media (min-width : 970px){
+@media (max-width : 1000px){
+
+    .circle-best-text{
+        font-size:30px;
+    }
+
+    h1{
+        font-size:75px;
+    }
+
+    h3{
+        font-size:43px;
+    }
+
     h4{
         font-family:"Geometos",sans-serif;
-        font-size:23px;
+        font-size:27px;
         font-weight:500;
     }
-
-    .flexbox{
-        width:70%;
-    }
-
-}
-
-@media (max-width: 500px){
-
-
 }

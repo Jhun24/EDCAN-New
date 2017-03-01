@@ -169,3 +169,44 @@ h6{
 
 }
 
+
+@media (min-width:1500px){
+    .content-info{
+        width:60%;
+    }
+
+    .content-ask{
+        width:60%;
+    }
+
+    .content-btn{
+        width:60%;
+    }
+}
+
+@media (max-width:1000px){
+    .error-logo{
+        display:none;
+    }
+
+    .content-info{
+        width:94%;
+        text-align:center;
+    }
+
+    .content-ask{
+        width:94%;
+        text-align:center;
+    }
+
+    .content-btn{
+        width:94%;
+    }
+
+    .error-btn{
+        height:3vh;
+        width:30vw;
+    }
+}
+
+
