@@ -1,0 +1,27 @@
+.footer{
+  width:100vw;
+  height:18vh;
+
+  background-color:rgba(0,0,0,0.2);
+}
+
+.footer-box{
+  color:rgba(0,0,0,0.3);
+}
+
+a{
+  color:#1aadc7;
+}
+
+.edcan-logo{
+  background-image:url('img/ask/logo.png');
+  width:210px;
+  height:45px;
+
+  margin-right:10px;
+}
+
+.circle-master{
+  color:rgba(0,0,0,0.3);
+  margin-left:10px;
+}

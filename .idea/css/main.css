@@ -6,6 +6,8 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+
+
 }
 
 body{
@@ -130,13 +132,11 @@ h3{
     -webkit-justify-content:space-between;
     justify-content:space-between;
     -ms-flex-pack:justify;
-    width:100%;
-    height:100%;
+    width:70%;
 }
 
 .footer-text{
     color:white;
-
 }
 
 .logo{
@@ -163,20 +163,17 @@ h5{
 /* footer finish */
 
 
-@media (min-width : 970px){
+@media (max-width : 970px){
     h4{
-        font-family:"Geometos",sans-serif;
-        font-size:23px;
-        font-weight:500;
+        font-size:13px;
+    }
+
+    h1{
+        font-size:100px;
     }
 
     .flexbox{
-        width:70%;
+        width:100%;
     }
-
-}
-
-@media (max-width: 500px){
-
 
 }
