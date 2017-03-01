@@ -43,9 +43,9 @@ body{
     background-image:url("img/access/ic_edcan.png");
 }
 
-.null{
-    width:40%;
-}
+/*.null{*/
+    /*width:40%;*/
+/*}*/
 
 .master{
     color:#455a65;
@@ -128,3 +128,4 @@ h6{
     cursor:pointer;
 
 }
+

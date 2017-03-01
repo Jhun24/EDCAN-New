@@ -161,3 +161,16 @@ h5{
 
 
 /* footer finish */
+
+
+@media (max-width:970px){
+    h4{
+        font-size:13px;
+    }
+
+    h1{
+        font-size:80px;
+    }
+
+
+}
