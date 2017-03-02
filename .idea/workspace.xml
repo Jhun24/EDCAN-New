@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34669ddd-dbf1-4636-bfe1-aeed60b7e905" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/explain/bg_left_arrow.png" afterPath="$PROJECT_DIR$/css/img/explain/bg_left_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/img/explain/ic_edlabs.png" afterPath="$PROJECT_DIR$/css/img/explain/ic_edlabs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/explain.css" afterPath="$PROJECT_DIR$/css/explain.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/explain.html" afterPath="$PROJECT_DIR$/explain.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/explain.js" afterPath="$PROJECT_DIR$/js/explain.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +43,8 @@
       <file leaf-file-name="explain.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/explain.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3355">
-              <caret line="340" column="19" lean-forward="true" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+            <state relative-caret-position="1870">
+              <caret line="352" column="0" lean-forward="true" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,10 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ATELIER.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/img/unit/ATELIER.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="ask.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/ask.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -439,12 +436,12 @@
       <workItem from="1488186055336" duration="36421000" />
       <workItem from="1488385155322" duration="9727000" />
       <workItem from="1488412559529" duration="8110000" />
-      <workItem from="1488433531380" duration="4249000" />
+      <workItem from="1488433531380" duration="4568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58627000" />
+    <option name="totallyTimeSpent" value="58946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -648,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ask.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="107" column="4" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/img/explain/ic_right_arrow.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -805,10 +794,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/ask.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="85" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/explain.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3355">
-          <caret line="340" column="19" lean-forward="true" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
+        <state relative-caret-position="1870">
+          <caret line="352" column="0" lean-forward="true" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
           <folding />
         </state>
       </provider>
