@@ -190,22 +190,25 @@ h6{
     }
 
     .content-info{
-        width:100%;
+        width:94%;
         text-align:center;
     }
-
     .content-ask{
-        width:100%;
+        width:94%;
         text-align:center;
     }
 
     .content-btn{
-        width:100%;
+        width:94%;
     }
 
     .error-btn{
         height:3vh;
         width:30vw;
+    }
+
+    .error-text{
+        margin:auto;
     }
 }
 
