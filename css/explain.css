@@ -49,6 +49,8 @@ body{
 .slide-bar{
     width:100%;
     height:45%;
+
+    overflow:hidden;
 }
 
 .left-btn, .right-btn{
@@ -62,16 +64,31 @@ body{
     margin-top:7%;
 
     background-color:rgba(0,0,0,0.7);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .right-btn{
     left:calc(100% - 50px);
 }
 
+.right{
+    background-image:url("img/explain/ic_right_arrow.png");
+    width:15px;
+    height:25px;
+}
+
+.left{
+    background-image:url("img/explain/bg_left_arrow.png");
+    width:15px;
+    height:25px;
+}
+
 .img-slide{
     width:500%;
     height:100%;
-
 
     display:flex;
 }
@@ -174,4 +191,175 @@ body{
 
     width:779px;
     height:241px;
+}
+
+
+
+
+/* 나눠버리기이이!
+ */
+
+.explain{
+    width:100%;
+    height:45%;
+
+    display:flex;
+}
+
+.explain-text{
+    width:33.3%;
+    height:100%;
+
+    background-color:#455a65;
+}
+
+.explain-day{
+    width:33.4%;
+    height:100%;
+
+    background-color:#fff;
+}
+
+.explain-logo{
+    background-color:rgb(212,209,204);
+
+    width:33.3%;
+    height:100%;
+}
+
+.logo-box{
+    width:100%;
+    height:85%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.explain-header{
+    width:100%;
+    height:15%;
+    display:flex;
+    align-items:center;
+
+    font-weight:700;
+    font-size:20px;
+
+    padding-left:20px;
+
+}
+
+
+
+.black{
+    color:black;
+}
+
+.white{
+    color:white;
+}
+
+.gray-logo{
+    background-image:url("img/explain/ic_b_edcan.png");
+
+    width:204px;
+    height:171px;
+}
+
+.explain-info{
+    height:17%;
+    width:100%;
+
+    display:flex;
+    align-items:center;
+
+    color:white;
+
+    padding-left:20px;
+}
+
+.big{
+    font-size:60px;
+    font-weight:200;
+}
+
+
+
+
+/* 나눠버리기ㅣ이이이이이 */
+
+.atelier{
+    background-image:url("img/unit/ATELIER.png");
+
+    width:158px;
+    height:188px;
+}
+
+.edlabs{
+    background-image:url("img/unit/EDLabs.png");
+
+    width:166px;
+    height:188px;
+}
+
+.edresearch{
+    background-image:url("img/unit/EDResearch.png");
+
+    width:140px;
+    height:188px;
+}
+
+.pixel{
+    background-image:url("img/unit/pixel.png");
+    width:217px;
+    height:128px;
+}
+
+.techio{
+    background-image:url("img/unit/Tech.io.png");
+
+    width:116px;
+    height:188px;
+}
+
+@media (max-width:1000px){
+    body{
+        overflow-y:auto;
+    }
+    .explain{
+        display:block;
+    }
+
+    .explain-text{
+        width:100%;
+    }
+
+    .explain-day{
+        width:100%;
+    }
+    .explain-logo{
+        width:100%;
+    }
+
+    .left-btn,.right-btn{
+        width:100px;
+        height:500px;
+    }
+
+    .right-btn{
+        left:calc(100% - 100px);
+
+    }
+
+    .explain-header{
+        font-size:40px;
+    }
+
+    .explain-info{
+        font-size:25px;
+    }
+
+    .big{
+        font-size:100px;
+    }
 }
