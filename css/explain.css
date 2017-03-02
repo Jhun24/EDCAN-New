@@ -1,0 +1,177 @@
+*{
+    margin:0;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+
+body{
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+}
+
+.header{
+    width:100%;
+    height:10%;
+    background-color:#455a65;
+
+
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    background-image:url("img/explain/ic_s_edcan.png");
+    width:150px;
+    height:33px;
+
+    margin-left:20px;
+
+}
+
+
+.btn-box{
+    width:100%;
+    height:100%;
+
+    display:flex;
+}
+
+.slide-bar{
+    width:100%;
+    height:45%;
+}
+
+.left-btn, .right-btn{
+    position:absolute;
+
+    z-index:10;
+
+    width:50px;
+    height:150px;
+
+    margin-top:7%;
+
+    background-color:rgba(0,0,0,0.7);
+}
+
+.right-btn{
+    left:calc(100% - 50px);
+}
+
+.img-slide{
+    width:500%;
+    height:100%;
+
+
+    display:flex;
+}
+
+.img-edlabs{
+    background-image:url("img/explain/ic_edlabs.png");
+
+    background-size:cover;
+
+    width:1226px;
+    height:231px;
+}
+
+.edlabs-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:#ffbde4;
+}
+
+.atelier-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:#cbc3ff;
+}
+
+.img-atelier{
+    background-image:url("img/explain/ic_atelier.png");
+
+    background-size:cover;
+
+    width:897px;
+    height:221px;
+}
+
+.edresearch-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:#bcffe3;
+}
+
+.img-edresearch{
+    background-image:url("img/explain/ic_edresearch.png");
+
+    background-size:cover;
+
+    width:977px;
+    height:214px;
+}
+
+.pixel-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:#ffb5b5;
+}
+
+.img-pixel{
+    background-image:url("img/explain/ic_pexel.png");
+
+    background-size:cover;
+
+    width:873px;
+    height:173px;
+}
+
+.tech-io-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background-color:#e4c0ff;
+}
+
+.img-tech-io{
+    background-image:url("img/explain/ic_tech.io.png");
+
+    background-size:cover;
+
+    width:779px;
+    height:241px;
+}
