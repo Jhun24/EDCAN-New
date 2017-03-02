@@ -4,15 +4,10 @@
 
 $(".footer").hover(
     function(){
-
-        $(this).css({
-            "backgroundColor":"rgba(0,0,0,0.5)"
-        })
+        $(this).animate({"background-color":"rgba(0,0,0,0.7"})
     },
     function(){
-        $(this).css({
-            "background-color":"transparent"
-        })
+
     }
 )
 

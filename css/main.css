@@ -120,6 +120,11 @@ h3{
     background-color:rgba(0,0,0,0.7);
 }
 
+.blacklayer{
+    width:100vw;
+    height:23vh;
+}
+
 .flexbox{
     display:flex;
     display:-webkit-flex;

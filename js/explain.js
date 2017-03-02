@@ -105,5 +105,5 @@ function animation(){
 }
 
 $(".explain-logo").click(function(){
-    location.href="user"
+    location.href="access"
 })
