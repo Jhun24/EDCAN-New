@@ -127,9 +127,10 @@ $(".explain-logo").click(function(){
 
     if(navigator.platform){
         if(0 > filter.indexOf(navigator.platform.toLowerCase())){
-            location.href="access.html"
+            location.href="access"
         }else{
-            alert("포트폴리오 등의 제출을 위해 PC로 접속해주세요");
+            alert("포트폴리오 첨부가 필요한경우 PC에서 이용해주세요");
+            location.href="access"
         }
     }
 

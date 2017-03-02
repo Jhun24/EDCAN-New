@@ -229,6 +229,8 @@ body{
     border-bottom:1px solid rgba(0,0,0,0.3);
 
     margin-bottom:30px;
+
+    margin-top:10px;
 }
 
 .add-text{
@@ -237,6 +239,8 @@ body{
     font-weight:400;
 
     margin-right:5px;
+
+
 }
 
 .send-text{
@@ -266,6 +270,9 @@ body{
 }
 
 @media (min-width:1000px){
+    .content-big-file{
+        display:block;
+    }
     .content-big-box{
         width:70vw;
         margin-bottom:30px;
