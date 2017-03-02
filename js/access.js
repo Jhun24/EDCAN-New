@@ -3,7 +3,7 @@
  */
 
 $(".edcan").click(function(){
-    location.href="https://edcan.kr"
+    location.href="http://edcan.kr"
 })
 
 $(".back").click(function(){

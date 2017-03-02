@@ -60,34 +60,7 @@ body{
     overflow:hidden;
 }
 
-.left-btn, .right-btn{
-    position:absolute;
 
-    z-index:10;
-
-    width:50px;
-    height:150px;
-
-    margin-top:7%;
-
-    background-color:rgba(0,0,0,0.7);
-
-    display:flex;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-
-    -webkit-align-items:center;
-    align-items:center;
-    -ms-flex-align:center;
-
-    -webkit-justify-content:center;
-    justify-content:center;
-    -ms-flex-pack:center;
-}
-
-.right-btn{
-    left:calc(100% - 50px);
-}
 
 .right{
     background-image:url("img/explain/ic_right_arrow.png");
@@ -358,7 +331,7 @@ body{
 }
 
 .big{
-    font-size:60px;
+    font-size:35px;
     font-weight:200;
 }
 
