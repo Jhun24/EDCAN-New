@@ -46,6 +46,7 @@ function time(){
                 $(".explain-header").css({"font-size":"20px"})
                 $(".explain-info").css({"font-size":"15px"})
                 $(".big").css({"font-size":"20px"})
+                $(".logo-text").css({"font-size":"30px"})
 
             }
         }else{
