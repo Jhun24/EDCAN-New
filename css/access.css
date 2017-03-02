@@ -76,7 +76,7 @@ body{
 }
 
 .content-info{
-    width:74%;
+    width:76%;
     height:50%;
     display:flex;
     display:-webkit-flex;
@@ -111,7 +111,7 @@ h6{
 }
 
 .content-ask{
-    width:74%;
+    width:76%;
 
     margin:auto;
 
@@ -122,7 +122,7 @@ h6{
 }
 
 .content-btn{
-    width:74%;
+    width:76%;
 
     margin:auto;
 
