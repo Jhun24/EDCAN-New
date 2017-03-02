@@ -50,10 +50,13 @@ function time(){
 
 setInterval(time,900);
 setInterval(responsive,1000);
+setInterval(animation,3000);
 
 $(".left-btn").click(function(){
     if(clickNum == 0){
-
+        clickNum = 4;
+        margin = -400;
+        $(".img-slide").animate({"margin-left":margin+"%"},1000);
     }
     else{
         clickNum--;
@@ -64,6 +67,9 @@ $(".left-btn").click(function(){
 
 $(".right-btn").click(function(){
     if(clickNum == 4){
+        clickNum = 0;
+        margin = 0;
+        $(".img-slide").animate({"margin-left":margin+"%"},1000);
 
     }
     else{
@@ -90,5 +96,19 @@ function responsive(){
         $(".img-edresearch").removeClass("edresearch");
         $(".img-pixel").removeClass("pixel");
         $(".img-tech-io").removeClass("techio");
+    }
+}
+
+function animation(){
+    if(clickNum == 4){
+        clickNum = 0;
+        margin = 0;
+        $(".img-slide").animate({"margin-left":margin+"%"},1000);
+
+    }
+    else{
+        clickNum++;
+        margin = margin - 100;
+        $(".img-slide").animate({"margin-left":margin+"%"},1000);
     }
 }
