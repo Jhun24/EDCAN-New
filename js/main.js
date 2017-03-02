@@ -15,3 +15,11 @@ $(".footer").hover(
         })
     }
 )
+
+$(".apply").click(function(){
+    location.href="explain"
+})
+
+$(".main").click(function(){
+    location.href="https://edcan.kr"
+})

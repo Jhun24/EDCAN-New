@@ -8,7 +8,7 @@ var clickNum  = 0;
 
 var date = new Date();
 
-var day = 15 - date.getDate()+1;
+var day = 15 - date.getDate();
 
 var hour = 12 -date.getHours();
 var min = 60 -date.getMinutes();
@@ -17,13 +17,13 @@ var sec = 60 - date.getSeconds();
 function time(){
     sec--;
     if(hour < 0){
-        hour = 23;
+        hour = 23+hour;
         day--;
     }
 
     if(sec == 0){
         min --;
-        sec = 60;
+        sec = 59;
         if(min == 0){
             hour --;
             min = 59;
@@ -32,19 +32,10 @@ function time(){
                 day --;
                 hour = 23;
             }
-            else{
-                $(".big").text(day+"일 "+hour+":"+min+":"+sec);
-            }
         }
-        else{
-            $(".big").text(day+"일 "+hour+":"+min+":"+sec);
-        }
-
-    }
-    else{
-        $(".big").text(day+"일 "+hour+":"+min+":"+sec);
     }
 
+    $(".big").text(day+"일 "+hour+":"+min+":"+sec+" 남았습니다");
 
 }
 
@@ -112,3 +103,7 @@ function animation(){
         $(".img-slide").animate({"margin-left":margin+"%"},1000);
     }
 }
+
+$(".explain-logo").click(function(){
+    location.href="user"
+})

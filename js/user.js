@@ -25,3 +25,7 @@ $(".check-box").click(function() {
         $(".check-box").removeClass("soft");
     }
 })
+
+$(".end-box").click(function(){
+    location.href="ask"
+})
