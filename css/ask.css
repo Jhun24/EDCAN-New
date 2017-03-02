@@ -104,7 +104,7 @@ body{
 
 .header{
     width:100vw;
-    height:20vh;
+    height:35vh;
     background-color:#455a65;
 }
 
@@ -173,14 +173,14 @@ body{
     width:94vw;
     height:40vh;
     padding-top:10px;
-    margin-bottom:60px;
+    margin-bottom:130px;
 }
 
 .content-big-file{
     width:94vw;
     height:20vh;
     padding-top:10px;
-    margin-bottom:20px;
+   display:none;
 }
 
 .content-text{
@@ -268,12 +268,12 @@ body{
 @media (min-width:1000px){
     .content-big-box{
         width:70vw;
-        margin-bottom:20px;
+        margin-bottom:30px;
     }
 
     .content-big-file{
         width:70vw;
-        margin-bottom:20px;
+        margin-bottom:30px;
     }
 
     .footer{

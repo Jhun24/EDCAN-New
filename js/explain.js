@@ -123,5 +123,14 @@ function animation(){
 }
 
 $(".explain-logo").click(function(){
-    location.href="access.html"
+    var filter = "win16|win32|win64|mac";
+
+    if(navigator.platform){
+        if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+            location.href="access.html"
+        }else{
+            alert("포트폴리오 등의 제출을 위해 PC로 접속해주세요");
+        }
+    }
+
 })
