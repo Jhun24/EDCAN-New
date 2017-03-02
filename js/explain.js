@@ -14,6 +14,9 @@ var hour = 12 -date.getHours();
 var min = 60 -date.getMinutes();
 var sec = 60 - date.getSeconds();
 
+var filter = "win16|win32|win64|mac";
+
+
 function time(){
     sec--;
     if(hour < 0){
@@ -35,7 +38,21 @@ function time(){
         }
     }
 
-    $(".big").text(day+"일 "+hour+":"+min+":"+sec+" 남았습니다");
+    if(navigator.platform){
+
+        if(0 > filter.indexOf(navigator.platform.toLowerCase())){
+            var w = window.innerWidth;
+            if(w < 1000){
+                $(".explain-header").css({"font-size":"20px"})
+                $(".explain-info").css({"font-size":"15px"})
+                $(".big").css({"font-size":"20px"})
+
+            }
+        }else{
+        }
+    }
+
+    $(".big").text(day+"일 "+hour+":"+min+":"+sec);
 
 }
 
