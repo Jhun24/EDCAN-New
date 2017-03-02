@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34669ddd-dbf1-4636-bfe1-aeed60b7e905" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ask.css" afterPath="$PROJECT_DIR$/css/ask.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/explain.js" afterPath="$PROJECT_DIR$/js/explain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/explain.css" afterPath="$PROJECT_DIR$/css/explain.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
+            <state relative-caret-position="945">
               <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding />
             </state>
@@ -53,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ask.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ask.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/ask.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3480">
@@ -76,18 +75,18 @@
       <file leaf-file-name="explain.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/explain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+            <state relative-caret-position="190">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="explain.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="explain.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/explain.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2620">
-              <caret line="438" column="23" lean-forward="false" selection-start-line="438" selection-start-column="23" selection-end-line="438" selection-end-column="23" />
+            <state relative-caret-position="30">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -186,10 +185,10 @@
         <option value="$PROJECT_DIR$/css/access.css" />
         <option value="$PROJECT_DIR$/js/access.js" />
         <option value="$PROJECT_DIR$/explain.html" />
-        <option value="$PROJECT_DIR$/css/explain.css" />
         <option value="$PROJECT_DIR$/js/ask.js" />
         <option value="$PROJECT_DIR$/js/explain.js" />
         <option value="$PROJECT_DIR$/css/ask.css" />
+        <option value="$PROJECT_DIR$/css/explain.css" />
       </list>
     </option>
   </component>
@@ -475,12 +474,12 @@
       <workItem from="1488433531380" duration="4913000" />
       <workItem from="1488451519713" duration="5694000" />
       <workItem from="1488464148290" duration="532000" />
-      <workItem from="1488465581101" duration="2911000" />
+      <workItem from="1488465581101" duration="3047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68428000" />
+    <option name="totallyTimeSpent" value="68564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -792,22 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/explain.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2620">
-          <caret line="438" column="23" lean-forward="false" selection-start-line="438" selection-start-column="23" selection-end-line="438" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -824,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/explain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -844,6 +819,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3480">
           <caret line="232" column="20" lean-forward="false" selection-start-line="232" selection-start-column="20" selection-end-line="232" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="14" lean-forward="false" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/explain.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -61,19 +61,6 @@ body{
 }
 
 
-
-.right{
-    background-image:url("img/explain/ic_right_arrow.png");
-    width:15px;
-    height:25px;
-}
-
-.left{
-    background-image:url("img/explain/bg_left_arrow.png");
-    width:15px;
-    height:25px;
-}
-
 .img-slide{
     width:500%;
     height:100%;
