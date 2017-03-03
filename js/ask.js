@@ -13,9 +13,9 @@ $(document).ready(function(){
 
     data = url.split("?");
 
-   $(".name-text").text(data[1]);
-   $(".phone").text(data[4])
-   $(".email").text(data[6]);
+   $(".name-text").text(decodeURIComponent(data[1]));
+   $(".phone").text(decodeURIComponent(data[4]))
+   $(".email").text(decodeURIComponent(data[6]));
 })
 
 $(".send").click(function(){
@@ -23,15 +23,13 @@ $(".send").click(function(){
     var dong = $(".dong").val();
     var master = $(".master").val();
 
-    var name = data[1];
-    var phone = data[4];
-    var email = data[6];
-    var num = data[3];
+    var name = decodeURIComponent(data[1]);
+    var phone = decodeURIComponent(data[4]);
+    var email = decodeURIComponent(data[6]);
+    var num = decodeURIComponent(data[3]);
 
-    var gender = data[2];
-    var depar = data[5];
-
-    var file = null;
+    var gender = decodeURIComponent(data[2]);
+    var depar = decodeURIComponent(data[5]);
 
     var rd = $(".rd").is(":checked")
 
@@ -67,13 +65,13 @@ $(".preview").click(function(){
     var dong = $(".dong").val();
     var master = $(".master").val();
 
-    var name = data[1];
-    var phone = data[4];
-    var email = data[6];
-    var num = data[3];
+    var name = decodeURIComponent(data[1]);
+    var phone = decodeURIComponent(data[4]);
+    var email = decodeURIComponent(data[6]);
+    var num = decodeURIComponent(data[3]);
 
-    var gender = data[2];
-    var depar = data[5];
+    var gender = decodeURIComponent(data[2]);
+    var depar = decodeURIComponent(data[5]);
 
     var file = null;
 

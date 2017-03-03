@@ -39,6 +39,11 @@ $(".end-box").click(function(){
     var phone = $(".phone").val();
     var email = $(".email").val();
 
+    if(name != null && num != null && phone != null && email != null){
+        location.href="ask?"+name+"?"+sex+"?"+num+"?"+phone+"?"+type+"?"+email;
+    }
+    else{
+        alert("전부 기입해주세요")
+    }
 
-    location.href="ask.html?"+name+"?"+sex+"?"+num+"?"+phone+"?"+type+"?"+email;
 })
