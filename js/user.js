@@ -43,7 +43,7 @@ $(".end-box").click(function(){
         $.ajax({
             method:"POST",
             url:"https://iwin247.kr/user",
-            data:{"name":name,"School_Num":num,"Phone_Num":phone,"gender":sex,"email":email,"Department":type},
+            data:{"name":name,"S_Num":num,"Phone_Num":phone,"gender":sex,"email":email,"Department":type},
             success:function(data){
                 location.href="ask.html"
             },
