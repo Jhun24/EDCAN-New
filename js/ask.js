@@ -2,19 +2,20 @@
  * Created by janghunlee on 2017. 3. 2..
  */
 
-var name;
-var stNum;
-var pNum;
-var email;
-var sex;
-var depar;
-
 
 $(document).ready(function(){
     $.ajax({
         method:"POST",
         url:"https://iwin247.kr/ask",
         success:function(data){
+            var name;
+            var stNum;
+            var pNum;
+            var email;
+            var sex;
+            var depar;
+
+
             name = data["name"];
             stNum = data["Student_Num"];
             pNum = data["Phone_Num"];
