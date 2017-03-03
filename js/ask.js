@@ -26,6 +26,10 @@ $(document).ready(function(){
             email = data["email"];
             sex = data["gender"];
             depar = data["Department"];
+
+            $(".name-text").text(name);
+            $(".email").text(email);
+            $(".phone").text(pNum);
         },
         error:function(){
             alert("server error")
