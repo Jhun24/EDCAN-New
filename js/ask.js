@@ -7,13 +7,8 @@ var stNum;
 var pNum;
 var email;
 var sex;
-var depar
+var depar;
 
-
-
-$(".send").click(function() {
-    location.href = "finish"
-})
 
 $(document).ready(function(){
     $.ajax({
