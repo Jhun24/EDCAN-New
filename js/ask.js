@@ -2,19 +2,20 @@
  * Created by janghunlee on 2017. 3. 2..
  */
 
+var name;
+var stNum;
+var pNum;
+var email;
+var sex;
+var depar;
+
+
 
 $(document).ready(function(){
     $.ajax({
         method:"POST",
         url:"https://iwin247.kr/ask",
         success:function(data){
-            var name;
-            var stNum;
-            var pNum;
-            var email;
-            var sex;
-            var depar;
-
 
             name = data["name"];
             stNum = data["Student_Num"];
@@ -43,7 +44,7 @@ $(".send").click(function(){
 
 
     if(rd == true) {
-        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && sex != "" && depar != "") {
+        if (self != "" && dong != "" && master != "" && name != "" && pNum != "" && email != "" && stNum != "" && sex != "" && depar != "") {
             $.ajax({
                 method:"POST",
                 url:"https://iwin247.kr/apply",
@@ -78,7 +79,7 @@ $(".preview").click(function(){
 
 
     if(rd == true) {
-        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && sex != "" && depar != "") {
+        if (self != "" && dong != "" && master != "" && name != "" && pNum != "" && email != "" && stNum != "" && sex != "" && depar != "") {
             $.ajax({
                 method:"POST",
                 url:"https://iwin247.kr/apply",
