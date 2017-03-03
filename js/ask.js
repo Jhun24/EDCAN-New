@@ -2,20 +2,35 @@
  * Created by janghunlee on 2017. 3. 2..
  */
 
-var data;
+var name;
+var stNum;
+var pNum;
+var email;
+var sex;
+var depar
+
+
 
 $(".send").click(function() {
-    // location.href = "finish"
+    location.href = "finish"
 })
 
 $(document).ready(function(){
-    var url = location.href;
-
-    data = url.split("?");
-
-   $(".name-text").text(decodeURIComponent(data[1]));
-   $(".phone").text(decodeURIComponent(data[4]))
-   $(".email").text(decodeURIComponent(data[6]));
+    $.ajax({
+        method:"POST",
+        url:"https://iwin247.kr/ask",
+        success:function(data){
+            name = data["name"];
+            stNum = data["Student_Num"];
+            pNum = data["Phone_Num"];
+            email = data["email"];
+            sex = data["gender"];
+            depar = data["Department"];
+        },
+        error:function(){
+            alert("server error")
+        }
+    })
 })
 
 $(".send").click(function(){
@@ -23,24 +38,16 @@ $(".send").click(function(){
     var dong = $(".dong").val();
     var master = $(".master").val();
 
-    var name = decodeURIComponent(data[1]);
-    var phone = decodeURIComponent(data[4]);
-    var email = decodeURIComponent(data[6]);
-    var num = decodeURIComponent(data[3]);
-
-    var gender = decodeURIComponent(data[2]);
-    var depar = decodeURIComponent(data[5]);
-
     var rd = $(".rd").is(":checked")
 
 
 
     if(rd == true) {
-        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && gender != "" && depar != "") {
+        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && sex != "" && depar != "") {
             $.ajax({
                 method:"POST",
-                url:"http://apply.edcan.xyz/apply",
-                data:{"name":name,"Student_Num":num,"Phone_Num":phone,"email":email,"gender":gender,"Department":depar,"introduce":self,"why_edcan":dong,"what_can_u_do":master,"portfolio":"false"},
+                url:"https://iwin247.kr/apply",
+                data:{"name":name,"Student_Num":stNum,"Phone_Num":pNum,"email":email,"gender":gender,"Department":depar,"introduce":self,"why_edcan":dong,"what_can_u_do":master,"portfolio":"false"},
                 success:function(data){
                     location.href="finish"
                 },
@@ -64,15 +71,6 @@ $(".preview").click(function(){
     var self = $(".self").val();
     var dong = $(".dong").val();
     var master = $(".master").val();
-
-    var name = decodeURIComponent(data[1]);
-    var phone = decodeURIComponent(data[4]);
-    var email = decodeURIComponent(data[6]);
-    var num = decodeURIComponent(data[3]);
-
-    var gender = decodeURIComponent(data[2]);
-    var depar = decodeURIComponent(data[5]);
-
     var file = null;
 
     var rd = $(".rd").is(":checked")
@@ -80,11 +78,11 @@ $(".preview").click(function(){
 
 
     if(rd == true) {
-        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && gender != "" && depar != "") {
+        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && sex != "" && depar != "") {
             $.ajax({
                 method:"POST",
-                url:"http://apply.edcan.xyz/apply",
-                data:{"name":name,"Student_Num":num,"Phone_Num":phone,"email":email,"gender":gender,"Department":depar,"introduce":self,"why_edcan":dong,"what_can_u_do":master,"portfolio":"true"},
+                url:"https://iwin247.kr/apply",
+                data:{"name":name,"Student_Num":stNum,"Phone_Num":pNum,"email":email,"gender":sex,"Department":depar,"introduce":self,"why_edcan":dong,"what_can_u_do":master,"portfolio":"true"},
                 success:function(data){
                     location.href="http://iwin247.kr:8087"
                 },

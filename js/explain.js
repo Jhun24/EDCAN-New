@@ -123,15 +123,6 @@ function animation(){
 }
 
 $(".explain-logo").click(function(){
-    var filter = "win16|win32|win64|mac";
-
-    if(navigator.platform){
-        if(0 > filter.indexOf(navigator.platform.toLowerCase())){
-            location.href="access"
-        }else{
-            alert("포트폴리오 첨부가 필요한경우 PC에서 이용해주세요");
-            location.href="access"
-        }
-    }
+    location.href="access"
 
 })
