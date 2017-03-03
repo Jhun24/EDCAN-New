@@ -36,7 +36,7 @@ $(".send").click(function(){
 
 
     if(rd == true) {
-        if (self != null && dong != null && master != null && name != null && phone != null && email != null && num != null && gender != null && depar != null) {
+        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && gender != "" && depar != "") {
             $.ajax({
                 method:"POST",
                 url:"http://apply.edcan.xyz/apply",
@@ -80,7 +80,7 @@ $(".preview").click(function(){
 
 
     if(rd == true) {
-        if (self != null && dong != null && master != null && name != null && phone != null && email != null && num != null && gender != null && depar != null) {
+        if (self != "" && dong != "" && master != "" && name != "" && phone != "" && email != "" && num != "" && gender != "" && depar != "") {
             $.ajax({
                 method:"POST",
                 url:"http://apply.edcan.xyz/apply",
