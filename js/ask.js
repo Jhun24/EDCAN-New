@@ -16,13 +16,19 @@ $(document).ready(function(){
         method:"POST",
         url:"https://iwin247.kr/ask",
         success:function(data){
+            if(data == ""){
+                alert("ACCESS Denied");
+                window.close();
+            }
+            else{
+                name = data["name"];
+                stNum = data["Student_Num"];
+                pNum = data["Phone_Num"];
+                email = data["email"];
+                sex = data["gender"];
+                depar = data["Department"];
+            }
 
-            name = data["name"];
-            stNum = data["Student_Num"];
-            pNum = data["Phone_Num"];
-            email = data["email"];
-            sex = data["gender"];
-            depar = data["Department"];
 
             $(".name-text").text(name);
             $(".email").text(email);

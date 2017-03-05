@@ -17,3 +17,19 @@ $(".stat").click(function(){
     $(".list").removeClass("dataClick");
     $(".content-list").addClass("none")
 });
+
+$(document).ready(function(){
+    $.ajax({
+        method:"POST",
+        url:"https://iwin247.kr",
+        data:{"pass":"h0t$ix"},
+        success:function(data){
+            console.log(data);
+
+
+        },
+        error:function(){
+            alert("server error");
+        }
+    })
+})

@@ -10,6 +10,16 @@
     font-family: 'Nanum Barun Gothic', sans-serif;
 }
 
+input{
+
+    -ms-user-select: text;
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    user-select:text;
+
+}
+
 body{
     width:100vw;
     height:100vh;
