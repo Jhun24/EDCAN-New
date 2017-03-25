@@ -1,5 +1,6 @@
-# EDCAN-New
+#apply_EDCAN
 
-> 나눔고딕 : font-family: 'Nanum Barun Gothic', sans-serif;
+# ya feel so good
 
-> Geometos : font-family:"Geometos",sans-serif;
+# 야~ 마감끝났다~~~~
+# 기부운 조오타~
