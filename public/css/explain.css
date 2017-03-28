@@ -1,0 +1,430 @@
+*{
+    margin:0;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+
+body{
+    width:100vw;
+    height:100vh;
+
+    overflow:hidden;
+}
+
+.header{
+    width:100%;
+    height:10%;
+    background-color:#455a65;
+
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+}
+
+.logo{
+    background-image:url("img/explain/ic_s_edcan.png");
+    width:150px;
+    height:33px;
+
+    margin-left:20px;
+
+}
+
+
+.btn-box{
+    width:100%;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+}
+
+.slide-bar{
+    width:500%;
+    height:45%;
+
+    overflow:hidden;
+}
+
+
+.img-slide{
+    width:500vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+}
+
+.img-edlabs{
+    background-image:url("img/explain/ic_edlabs.png");
+
+    background-size:cover;
+
+    width:1226px;
+    height:231px;
+}
+
+.edlabs-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+    background-color:#ffbde4;
+}
+
+.atelier-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+    background-color:#cbc3ff;
+}
+
+.img-atelier{
+    background-image:url("img/explain/ic_atelier.png");
+
+    background-size:cover;
+
+    width:897px;
+    height:221px;
+}
+
+.edresearch-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+    background-color:#bcffe3;
+}
+
+.img-edresearch{
+    background-image:url("img/explain/ic_edresearch.png");
+
+    background-size:cover;
+
+    width:977px;
+    height:214px;
+}
+
+.pixel-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+    background-color:#ffb5b5;
+}
+
+.img-pixel{
+    background-image:url("img/explain/ic_pexel.png");
+
+    background-size:cover;
+
+    width:873px;
+    height:173px;
+}
+
+.tech-io-back{
+    width:100vw;
+    height:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+    background-color:#e4c0ff;
+}
+
+.img-tech-io{
+    background-image:url("img/explain/ic_tech.io.png");
+
+    background-size:cover;
+
+    width:779px;
+    height:241px;
+}
+
+
+
+
+/* 나눠버리기이이!
+ */
+
+.explain{
+    width:100%;
+    height:45%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+}
+
+.explain-text{
+    width:33.3%;
+    height:100%;
+
+    background-color:#455a65;
+}
+
+.explain-day{
+    width:33.4%;
+    height:100%;
+
+    background-color:#fff;
+}
+
+.explain-logo{
+    background-color:rgb(212,209,204);
+
+    width:33.3%;
+    height:100%;
+}
+
+.logo-box{
+    width:100%;
+    height:65%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+}
+
+.logo-text{
+    width:100%;
+    height:20%;
+
+    color:white;
+
+    font-size:30px;
+    font-weight:600;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+
+    -webkit-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+
+}
+
+.explain-header{
+    width:100%;
+    height:15%;
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+    font-weight:700;
+    font-size:20px;
+
+    padding-left:20px;
+
+}
+
+
+
+.black{
+    color:black;
+}
+
+.white{
+    color:white;
+}
+
+.gray-logo{
+    background-image:url("img/explain/ic_b_edcan.png");
+
+    width:204px;
+    height:171px;
+}
+
+.explain-info{
+    height:17%;
+    width:100%;
+
+    display:flex;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+
+    -webkit-align-items:center;
+    align-items:center;
+    -ms-flex-align:center;
+
+
+    color:white;
+
+    padding-left:20px;
+}
+
+.big{
+    font-size:35px;
+    font-weight:200;
+}
+
+
+
+
+/* 나눠버리기ㅣ이이이이이 */
+
+.atelier{
+    background-image:url("img/unit/ATELIER.png");
+
+    width:158px;
+    height:188px;
+}
+
+.edlabs{
+    background-image:url("img/unit/EDLabs.png");
+
+    width:166px;
+    height:188px;
+}
+
+.edresearch{
+    background-image:url("img/unit/EDResearch.png");
+
+    width:140px;
+    height:188px;
+}
+
+.pixel{
+    background-image:url("img/unit/pixel.png");
+    width:217px;
+    height:128px;
+}
+
+.techio{
+    background-image:url("img/unit/Tech.io.png");
+
+    width:116px;
+    height:188px;
+}
+
+@media (max-width:1000px){
+    body{
+        overflow-y:auto;
+    }
+    .explain{
+        display:block;
+    }
+    .slide-bar{
+      width:100%;
+	}
+    .explain-text{
+        width:100vw;
+    }
+
+    .explain-day{
+        width:100vw;
+    }
+    .explain-logo{
+        width:100vw;
+    }
+
+    .left-btn,.right-btn{
+        width:100px;
+        height:500px;
+    }
+
+    .right-btn{
+        left:calc(100% - 100px);
+
+    }
+
+    .explain-header{
+        font-size:40px;
+    }
+
+    .explain-info{
+        font-size:25px;
+    }
+
+    .big{
+        font-size:100px;
+    }
+
+    .logo-text{
+        font-size:60px;
+    }
+}

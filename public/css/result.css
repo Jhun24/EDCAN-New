@@ -1,0 +1,305 @@
+*{
+    margin:0;
+
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+
+textarea {
+
+    -ms-user-select: text;
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    user-select:text;
+
+}
+
+body{
+    width:100vw;
+    height:100vh;
+
+    background-color:#f9f9f9;
+
+    overflow-x:hidden;
+}
+
+.header{
+    width:100vw;
+    height:18vh;
+
+    background-color:#455a65;
+}
+
+.header-logo{
+    width:100vw;
+    height:10vh;
+}
+
+.logo{
+    background-image:url("img/result/ic_edcan.png");
+    width:150px;
+    height:33px;
+    margin-left:10px;
+}
+
+.header-title{
+    width:100vw;
+    height:10vh;
+
+    display:flex;
+    justify-content:center;
+}
+
+.title{
+    width:72vw;
+    height:10vh;
+
+    background-color:#fff;
+
+    display:flex;
+    justify-content:center;
+}
+
+.list, .stat{
+    color:#455a65;
+    font-weight:600;
+    font-size:25px;
+
+    width:25vw;
+    height:calc(10vh - 4px);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    cursor:pointer;
+}
+
+.dataClick{
+    border-bottom:4px solid #455a65;
+}
+
+.content{
+    width:100vw;
+    height:80vh;
+
+    display:flex;
+    justify-content:center;
+}
+
+.content-list{
+    background-color:white;
+    width:70vw;
+    height:100%;
+}
+
+.content-box{
+    width:100%;
+    height:6%;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-left:20px;
+
+    color:#455a65;
+}
+
+.num{
+    width:7%;
+}
+
+.name{
+    width:9%;
+}
+
+.school-num{
+    width:9%;
+}
+
+.sex{
+    width:9%;
+}
+
+.email{
+    width:27%;
+}
+
+.phone{
+    width:20%;
+}
+
+.class{
+    width:14%;
+}
+
+.more{
+    width:4px;
+    height:20px;
+    background-image:url("img/result/ic_more.png");
+}
+
+.none{
+    display:none;
+}
+
+.status{
+    padding-top:4vh;
+
+    width:70vw;
+    height:100%;
+
+    background-color:white;
+}
+
+.status-list{
+    display:flex;
+
+    justify-content:space-around;
+
+    height:31%;
+
+    padding-bottom:2%;
+}
+
+.status-box{
+    width:46%;
+    height:100%;
+
+    display:flex;
+}
+
+.status-content{
+    width:50%;
+    height:100%;
+
+}
+
+.status-num{
+    width:50%;
+    height:100%;
+}
+
+.stat-num{
+    width:100%;
+    height:70%;
+    color:white;
+
+    display:flex;
+
+    align-items:flex-end;
+    padding-left:10%;
+    font-size:70px;
+    font-weight:200;
+}
+
+.status-title{
+    font-size:30px;
+    font-weight:400;
+}
+
+.all{
+    color:rgb(97,97,97);
+    margin-bottom:16px;
+}
+
+.all-back{
+    background-color:rgb(97,97,97);
+}
+
+.all-line{
+    border:0.8px solid rgb(97,97,97);
+    width:45px;
+    margin-bottom:20px;
+}
+
+.all-text{
+    color:rgb(97,97,97);
+    font-size:15px;
+    font-weight:300;
+}
+
+
+.stat-line{
+    width:80%;
+    border:0.8px solid white;
+    margin:auto;
+}
+
+.stat-text{
+    color:white;
+    font-weight:200;
+    font-size:15px;
+    margin-left:10%;
+    margin-top:15px;
+}
+
+.boy{
+    color:#01b8e1;
+    margin-bottom:16px;
+}
+
+.boy-back{
+    background-color:#01b8e1;
+}
+
+.boy-line{
+    border:0.8px solid #01b8e1;
+    width:45px;
+    margin-bottom:20px;
+}
+
+.girl{
+    color:#f24982;
+    margin-bottom:16px;
+}
+
+.girl-back{
+    background-color:#f24982;
+}
+
+.girl-line{
+    border:0.8px solid #f24982;
+    width:45px;
+    margin-bottom:20px;
+}
+
+
+.multi{
+    color:#3c6eb4;
+    margin-bottom:16px;
+}
+
+.multi-back{
+    background-color:#3c6eb4;
+}
+
+.multi-line{
+    border:0.8px solid #3c6eb4;
+    width:45px;
+    margin-bottom:20px;
+}
+
+.soft{
+    color:#f5b617;
+    margin-bottom:16px;
+}
+
+.soft-back{
+    background-color:#f5b617;
+}
+
+.soft-line{
+    border:0.8px solid #f5b617;
+    width:45px;
+    margin-bottom:20px;
+}
